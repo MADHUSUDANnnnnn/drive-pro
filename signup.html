@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/signup.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Sign-Up</title>
+</head>
+<body>
+
+    <div id="main">
+        <h1>Create an account </h1><br><br>
+
+        <form id="container">
+            <label for="username" style="color: orange;">Username</label><br>
+            <input type="text" id="username" name="username" placeholder="  enter username"><br>
+            <span id="username-error" class="error-message"></span>
+            <br>
+            <label for="email" style="color: orange;">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="   example@gmail.com"><br>
+            <span id="email-error"class="error-message"></span>
+            <br>
+            <label for="password" style="color: orange;">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="  enter password"><br>
+            <img id="togglePasswd" src="./resources/img/eye-close.svg" alt=""  style="position: relative; right: -259px;
+    top: -46px; cursor: pointer;">
+            <span id="password-error"class="error-message"></span>
+      
+            <br>
+            <label for="confirm-password" style="color: orange;">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="  confirm password"><br>
+            <img src="./resources/img/eye-close.svg" alt="" id="togglePasswdConfirm" style="position: relative; right: -259px;
+    top: -46px; cursor: pointer;">
+            <span id="confirm-error"class="error-message"></span>
+      
+            <br>
+            <button type="submit" id="signin">Sign Up</button><br>
+            <span id="account-created-message" class="error-message"></span><br>
+            <span id="user-exists-message" class="error-message"></span><br>
+        </form>
+        
+    </div>
+
+    <script src="./resources/js/signup.js"></script>
+</body>
+</html>

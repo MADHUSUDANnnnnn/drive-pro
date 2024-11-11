@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="./resources/css/signin.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Sign-in</title>
+</head>
+<body>
+
+    <form id="main">
+        <h1>Sign-in for Faster Checkout</h1>
+        <div id="container">
+            <label style="color: orange;">Email</label><br>
+            <input type="text" id="email" placeholder="  example@gmail.com"><br><br>
+            <label style="color: orange;">Password</label><br>
+            <input type="password" id="password" placeholder="  Enter your password"><br><br>
+            <img id="togglePasswd" src="./resources/img/eye-close.svg" alt=""  style="position: relative; right: -259px;
+    top: -66px; cursor: pointer;">
+            <button id="login">Sign-in</button>
+            <span id="user-exists-message"></span>
+        </div>
+       
+        <a href="signup.html" id="create-account" style="color: orange;">Create Account!</a>
+    </form>
+
+    <script src="./resources/js/signin.js"></script>
+</body>
+
+</html>
